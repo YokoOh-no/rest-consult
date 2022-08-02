@@ -6,7 +6,10 @@ const Navbar = () => {
         </div>
             <a>Home</a>
             <a>About</a>
-            <a>Weather</a>
+            <a>Apply</a>
+            <a>Front of House</a>
+            <a>Kitchen</a>
+
     </nav>
 
      );
