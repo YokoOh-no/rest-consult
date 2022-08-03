@@ -1,7 +1,7 @@
 const Managemant = () => {
     return ( 
         <div>
-            <h1>Fork '&' Fire Managers</h1>
+            <h1>Fork & Fire Leaders</h1>
         </div>
      );
 }

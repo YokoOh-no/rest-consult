@@ -1,7 +1,7 @@
 const Apply = () => {
     return ( 
         <div>
-            <h1>Fork Careers</h1>
+            <h1>Fork & Fire Careers</h1>
         </div>
      );
 }
