@@ -1,11 +1,11 @@
 import Layout from '../comps/Layout'
 import '../styles/globals.css'
+import { Provider } from "next-auth/client"; 
 
 function MyApp({ Component, pageProps }) {
-  return (
-    <Layout>
+  return (<Provider session={pageProps.session}>
       <Component {...pageProps} />
-    </Layout>
-  )
-}  
-export default MyApp
+          </Provider>)
+  }  
+
+  export default MyApp;
